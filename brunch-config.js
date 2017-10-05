@@ -1,16 +1,31 @@
 // See http://brunch.io for documentation.
 module.exports = {
-  npm: {
-    styles: {
-      'material-components-web': ['dist/material-components-web.min.css']
-    }
-  },
   files: {
     javascripts: {
-      joinTo: 'app.js'
+      joinTo: {
+        'hacktober.app.js': [
+          'node_modules/**/*',
+          'app/js/**/*',
+        ]
+      }
     },
     stylesheets: {
-      joinTo: 'app.css'
+      joinTo: {
+        'hacktober.app.css': [
+          'node_modules/**/*',
+          'app/css/**/*',
+        ]
+      }
     }
-  }
+  },
+  plugins: {
+    sass: {
+      options: {
+        includePaths: [
+          'node_modules'
+        ]
+      }
+    }
+  },
+  npm: {enabled: true}
 }
