@@ -9,7 +9,9 @@
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "material-components-web": "^0.22.0"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2",
     "brunch": "^2",
