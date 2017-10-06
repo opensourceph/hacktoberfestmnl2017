@@ -7,7 +7,7 @@
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production && mkdir /tmp/hacktober-build && cp public/* && /tmp/hacktober-build && git checkout gh-pages && cp /tmp/hacktober-build/* ."
   },
   "dependencies": {
     "material-components-web": "^0.22.0"
