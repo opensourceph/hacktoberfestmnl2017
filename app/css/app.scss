@@ -1,1 +1,59 @@
-@import 'material-components-web/material-components-web'
+@import 'material-components-web/material-components-web';
+
+body {
+    font: 16px;
+    margin: 0;
+    color: #333;
+}
+
+#register {
+    margin: 3.5em 0;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 1em 3em;
+}
+
+#venue {
+	padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    align-self: flex-end;
+    text-align: center;
+}
+
+.logo {
+    #phils {
+        width: 200px;
+    }
+}
+
+
+.date-time, .venue {
+    font-size: 1.25em;
+}
+
+.sub-info {
+    margin: 2em 0;
+}
+
+#Hero {
+    background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
+	color: white;
+
+    h4 {
+        margin: 0;
+    }
+}
