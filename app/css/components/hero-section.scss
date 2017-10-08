@@ -1,0 +1,59 @@
+@import './../variables';
+
+.hero-section {
+  & {
+    text-align: center;
+    min-height: 100vh;
+    padding: 1em 3em;
+    color: white;
+  }
+
+  &.-mapped {
+    padding: 0;
+  }
+
+  &.-purple {
+    background: $hacktober-gradient;
+  }
+
+  &.-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  > .manila {
+    margin: 0;
+  }
+
+  > .info {
+    margin: 2em 0;
+
+    > .link {
+      color: $hacktober-link;
+      text-decoration: none;
+
+      &:visited {
+        color: $hacktober-link;
+      }
+    }
+  }
+
+  > .logo {
+    max-width: 100%;
+  }
+
+  > .registration {
+    margin: 3.5em 0;
+  }
+
+  > .when {
+    font-size: 1.25em;
+  }
+
+  > .venue {
+    padding: 0;
+    font-size: 1.25em;
+  }
+}

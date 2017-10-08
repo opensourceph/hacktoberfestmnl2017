@@ -7,7 +7,8 @@
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production && mkdir /tmp/hacktober-build && cp public/* && /tmp/hacktober-build && git checkout gh-pages && cp /tmp/hacktober-build/* ."
+    "build": "brunch build --production",
+    "lint": "stylelint app/css/**/*"
   },
   "dependencies": {
     "material-components-web": "^0.22.0"
@@ -17,6 +18,8 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "sass-brunch": "^2.10.4",
+    "stylelint": "^8.2.0",
+    "stylelint-rscss": "^0.4.0",
     "uglify-js-brunch": "^2"
   }
 }

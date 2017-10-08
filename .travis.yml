@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "8.0.0"
+before_install:
+  - "npm install stylelint -g"
+install:
+  - "npm install"
+  - "export TRAVIS=1"
+script:
+  - "npm run lint"
