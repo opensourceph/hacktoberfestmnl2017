@@ -1,16 +1,17 @@
-# Brunch app
+# Hacktoberfest 2017
 
-This is a HTML5 application, built with [Brunch](http://brunch.io).
+[![Build Status](https://travis-ci.org/hacktoberph/hacktoberfestmnl2017.svg?branch=master)](https://travis-ci.org/hacktoberph/hacktoberfestmnl2017)
 
-## Getting started
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `npm run build` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+Follows [RSCSS](http://rscss.io/) and [Google Style Guide for HTML/CSS](https://google.github.io/styleguide/htmlcssguide.html)
+
+To run linter, do:
+
+```sh
+npm run stylelint
+```
+
+To run a dev server with HMR, do:
+
+```sh
+npm start
+```
