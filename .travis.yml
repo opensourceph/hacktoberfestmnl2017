@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "8.0.0"
+before_install:
+  - "npm install stylelint -g"
+install:
+  - "npm install"
+  - "export TRAVIS=1"
+script:
+  - "npm run lint"
+  - "npm run build"
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local_dir: "public/"
+  email: "jekripreclaroorlina@gmail.com"

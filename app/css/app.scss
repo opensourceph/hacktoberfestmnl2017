@@ -1,1 +1,8 @@
-@import 'material-components-web/material-components-web'
+@import 'material-components-web/material-components-web';
+@import './variables';
+
+body {
+  font: 16px;
+  margin: 0;
+  color: #333;
+}
