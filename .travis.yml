@@ -9,6 +9,9 @@ install:
 script:
   - "npm run lint"
   - "npm run build"
+cache:
+  directories:
+    - node_modules
 deploy:
   provider: pages
   skip_cleanup: true
