@@ -1,0 +1,19 @@
+@import './../variables';
+
+.sponsor-card {
+  & {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 50px;
+  }
+
+  > .logo {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+}

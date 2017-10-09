@@ -8,6 +8,14 @@
     color: black;
   }
 
+  &.-flowgrid {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
   &.-mapped {
     padding: 0;
   }
