@@ -5,7 +5,7 @@
     text-align: center;
     min-height: 100vh;
     padding: 1em 3em;
-    color: white;
+    color: black;
   }
 
   &.-mapped {
@@ -14,6 +14,7 @@
 
   &.-purple {
     background: $hacktober-gradient;
+    color: white;
   }
 
   &.-centered {
