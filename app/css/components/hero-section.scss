@@ -8,12 +8,8 @@
     color: black;
   }
 
-  &.-flowgrid {
-    display: flex;
-    flex-flow: row wrap;
-    padding-top: 20px;
-    align-items: center;
-    justify-content: center;
+  &.-height-fit {
+    min-height: fit-content;
   }
 
   &.-mapped {
@@ -32,6 +28,19 @@
     flex-direction: column;
   }
 
+  > .flowgrid {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  > .title {
+    color: #3d3d3d; 
+    margin: 20px 0 40px 0;
+  }
+
   > .manila {
     margin: 0;
   }
@@ -47,10 +56,6 @@
         color: $hacktober-link;
       }
     }
-  }
-
-  > .logo {
-    max-width: 100%;
   }
 
   > .registration {

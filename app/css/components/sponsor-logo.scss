@@ -2,8 +2,6 @@
 
 .sponsor-card {
   & {
-    width: 400px;
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,9 +9,14 @@
     margin: 20px;
   }
 
-  > .logo {
-    max-height: 100%;
-    max-width: 100%;
+  > a > .logo {
+    max-width: 300px;
+    max-height: 250px;
+    opacity: .8;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
 }
