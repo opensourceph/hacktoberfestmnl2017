@@ -1,0 +1,15 @@
+.tabular-schedule {
+  padding: 20px;
+}
+
+td {
+  padding: 10px 25px;
+
+  &.-time {
+    font-weight: bold;
+  }
+
+  &.-activity {
+    padding: 0 10px;
+  }
+}
