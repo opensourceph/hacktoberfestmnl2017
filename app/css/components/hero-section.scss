@@ -5,7 +5,6 @@
     text-align: center;
     min-height: 100vh;
     padding: 1em 3em;
-    color: black;
   }
 
   &.-height-fit {
@@ -26,6 +25,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  &.-centered-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   > .flowgrid {
@@ -59,6 +65,12 @@
       &:visited {
         color: $hacktober-link;
       }
+    }
+  }
+
+  > .event {
+    > p {
+      text-align: justify;
     }
   }
 
