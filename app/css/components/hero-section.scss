@@ -44,6 +44,15 @@
 
   > .logo {
     max-width: 100%;
+    min-width: 200px;
+
+    &.-small {
+      width: 25%;
+    }
+
+    &.-medium {
+      width: 40%;
+    }
   }
 
   > .title {
