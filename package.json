@@ -11,15 +11,15 @@
     "lint": "stylelint app/css/**/*"
   },
   "dependencies": {
-    "material-components-web": "^0.22.0"
+    "material-components-web": "^0.39.0"
   },
   "devDependencies": {
-    "auto-reload-brunch": "^2",
-    "brunch": "^2",
-    "clean-css-brunch": "^2",
+    "auto-reload-brunch": "^2.7.1",
+    "brunch": "^2.10.16",
+    "clean-css-brunch": "^2.10.0",
     "sass-brunch": "^2.10.4",
-    "stylelint": "^8.2.0",
+    "stylelint": "^9.5.0",
     "stylelint-rscss": "^0.4.0",
-    "uglify-js-brunch": "^2"
+    "uglify-js-brunch": "^2.10.0"
   }
 }
