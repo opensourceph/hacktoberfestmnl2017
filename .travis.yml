@@ -4,14 +4,12 @@ node_js:
 before_install:
   - "npm install stylelint -g"
 install:
-  - "npm install"
-  - "export TRAVIS=1"
+  - "yarn"
 script:
-  - "npm run lint"
-  - "npm run build"
+  - "yarn run lint"
+  - "yarn run build"
 cache:
-  directories:
-    - node_modules
+  yarn: true
 deploy:
   provider: pages
   skip_cleanup: true
